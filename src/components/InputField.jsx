@@ -3,7 +3,7 @@ import axios from "axios";
 import Card from "./Card/Card";
 
 const API_KEY = "1a8811f3";
-const BASE_URL = "http://www.omdbapi.com/";
+const BASE_URL = "https://www.omdbapi.com/";
 
 const InputField = () => {
   const [movie, setMovie] = useState("");
