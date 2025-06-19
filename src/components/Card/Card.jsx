@@ -3,8 +3,9 @@ import React from "react";
 const Card = ({ imdb, img, title, type, year }) => {
     
   return (
-    <a href={`https://www.imdb.com/title/${imdb}/`}>
-      <div className="bg-blue-950 h-[500px] rounded-xl overflow-hidden">
+    <a href={`https://www.imdb.com/title/${imdb}/`}
+    target="_blank">
+      <div className="bg-black h-[500px] rounded-xl overflow-hidden">
         {/* Image Section */}
         <div className="w-full h-[400px] overflow-hidden">
           <img
