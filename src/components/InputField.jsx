@@ -111,8 +111,8 @@ const InputField = () => {
         } flex justify-between gap-6 `}
       >
         <div className="md:w-1/2">
-          <h1 className="text-3xl font-extrabold mb-3">ABOUT US</h1>
-          <p className="mb-3 text-lg">
+          <h1 className="lg:text-4xl xl:text-5xl text-3xl font-extrabold mb-3">ABOUT US</h1>
+          <p className="mb-3 text-lg xl:text-3xl lg:text-2xl">
             Welcome to{" "}
             <span className="text-red-500 font-bold">MoviesDhaba</span>, your
             one-stop destination for all things movies! Whether you're a casual
@@ -121,7 +121,7 @@ const InputField = () => {
             <span className="text-blue-500 font-bold">OMDb API</span>, we ensure
             you get accurate and up-to-date movie details at your fingertips.
           </p>
-          <p className="text-xl">
+          <p className="text-lg xl:text-3xl lg:text-2xl">
             At MoviesDhaba, we aim to make movie discovery effortless and
             enjoyable. So, sit back, search for your favorite films, and explore
             the world of cinema like never before!
